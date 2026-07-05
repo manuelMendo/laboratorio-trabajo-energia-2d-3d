@@ -22,7 +22,6 @@
 - [⚙ Instalación](#-instalación)
 - [▶ Uso](#-uso)
 - [🎯 Objetivos del Proyecto](#-objetivos-del-proyecto)
-- [🤝 Contribuciones](#-contribuciones)
 - [🌟 Apoya el Proyecto](#-apoya-el-proyecto)
 - [👨‍💻 Autor](#-autor)
 - [📄 Licencia](#-licencia)
