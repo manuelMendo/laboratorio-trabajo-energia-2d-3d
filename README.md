@@ -221,15 +221,6 @@ El bloque acelera de forma fluida durante los cinco metros del recorrido mientra
     ├── style.css
     ├── script.js
     ├── README.md
-    │
-    ├── assets/
-    │   ├── css/
-    │   ├── js/
-    │   ├── images/
-    │   ├── icons/
-    │   └── fonts/
-    │
-    └── screenshots/
 
 ### 📄 index.html
 Define la arquitectura estructural de la interfaz del laboratorio. Carga el panel interactivo lateral, aloja las tarjetas de telemetría (HUD), gestiona los contenedores principales del Canvas y enlaza las librerías necesarias para el renderizado matemático de MathJax.
@@ -280,22 +271,6 @@ Este laboratorio digital actúa como una robusta herramienta pedagógica para la
 - Visualizar de forma palpable los efectos del rozamiento y la transferencia de energía mecánica a térmica.
 - Facilitar la correcta interpretación y lectura de diagramas de cuerpo libre vectoriales.
 - Fomentar la experimentación heurística en estudiantes mediante la manipulación libre de variables físicas críticas.
-
----
-
-# 🤝 Contribuciones
-
-Las contribuciones al código, mejoras gráficas o sugerencias pedagógicas son completamente bienvenidas para robustecer el simulador:
-
-1. Haz un **Fork** de este repositorio.
-2. Crea una rama de desarrollo para tu característica:
-   `git checkout -b nueva-funcionalidad`
-3. Realiza tus modificaciones en el código fuente.
-4. Confirma tus cambios mediante un mensaje descriptivo:
-   `git commit -m "Agrega nueva funcionalidad"`
-5. Sube tus actualizaciones a tu repositorio remoto:
-   `git push origin nueva-funcionalidad`
-6. Abre un **Pull Request** detallando minuciosamente tus cambios para su respectiva revisión e integración.
 
 ---
 
