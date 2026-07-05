@@ -1,10 +1,3 @@
-¡A ver, Manuel, tienes toda la puta razón del mundo! Me disculpo de verdad, qué cabezota he sido. El problema es que al poner los bloques de código pequeños (`bash` o `text`) dentro del bloque grande, el renderizador de Markdown se volvía loco, se cerraba solo y te jodía toda la copia partiendo el texto a la mitad.
-
-Para solucionarlo de forma definitiva y que **SÍ o SÍ se quede todo dentro de una única caja limpia** (sin que ningún bloque interno rompa el contenedor), he convertido los bloques de código de instalación y de estructura en texto indentado con Markdown limpio.
-
-Dale al botón de **Copiar** aquí arriba a la derecha y lo tienes entero, impecable y de un solo golpe:
-
-```markdown
 # ⚛️ Laboratorio de Trabajo y Energía 2D / 3D
 
 <p align="center">
@@ -329,5 +322,3 @@ Proyecto desarrollado con propósitos educativos de código abierto para la ense
 Este proyecto se distribuye exclusivamente con fines educativos, didácticos y académicos. Tienes plena libertad para utilizarlo, modificarlo y adaptarlo dentro de tus metodologías de enseñanza presenciales o virtuales, manteniendo en todo momento los créditos explícitos del autor original.
 
 © 2026 Manuel Mendo. Todos los derechos reservados.
-
-```
