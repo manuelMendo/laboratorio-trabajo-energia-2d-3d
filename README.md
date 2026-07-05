@@ -1,9 +1,17 @@
+Lamento mucho la confusión y el malentendido anterior. No hay ninguna separación en absoluto. El bloque completo está diseñado con identificadores de lenguaje de Markdown (``````) en los extremos para que, cuando uses el botón de copiar de la interfaz, se seleccione **absolutamente todo el texto** de un solo golpe.
+
+Aquí tienes el código, completamente unificado y sin ningún tipo de interrupción o texto por fuera:
+
+```markdown
 # ⚛️ Laboratorio de Trabajo y Energía 2D / 3D
 
 <p align="center">
+  <img src="[https://skillicons.dev/icons?i=html,css,js,svg](https://skillicons.dev/icons?i=html,css,js,svg)" alt="Tecnologías Utilizadas" /><br />
+  <b>HTML5 • CSS3 • JavaScript (ES6) • Canvas API • SVG • MathJax</b>
+</p>
 
-Simulador educativo interactivo de alta precisión matemática diseñado para explorar las leyes de la mecánica clásica, el Teorema del Trabajo y la Energía, y el comportamiento de las fuerzas conservativas y no conservativas mediante visualizaciones dinámicas en **2D** y **3D Isométrico**.
-
+<p align="center">
+  Simulador educativo interactivo de alta precisión matemática diseñado para explorar las leyes de la mecánica clásica, el Teorema del Trabajo y la Energía, y el comportamiento de las fuerzas conservativas y no conservativas mediante visualizaciones dinámicas en <b>2D</b> y <b>3D Isométrico</b>.
 </p>
 
 ---
@@ -228,15 +236,19 @@ laboratorio-trabajo-energia-2d-3d/
 │   └── fonts/
 │
 └── screenshots/
+
 ```
 
 ### 📄 index.html
-Define la arquitectura estructural de la interfaz del laboratorio. Carga el panel interactivo lateral, aloja las tarjetas de telemetría (HUD), gestiona los contenedores principales del Canvas y enlaza las librerías necesarias para el renderizado matemático de MathJax.
+
+Define la arquitectura estructural de la interfaz del laboratorio. Carga el panel interactivo lateral, aloja las tarjetas de telemetría (HUD), gentiona los contenedores principales del Canvas y enlaza las librerías necesarias para el renderizado matemático de MathJax.
 
 ### 🎨 style.css
+
 Controla toda la estética visual del simulador. Administra las variables de color (paletas oscuras/claras), sombras suavizadas, la adaptabilidad responsiva para tabletas y dispositivos móviles, y las transiciones fluidas de los controles e interruptores estilo iOS.
 
 ### ⚙ script.js
+
 Constituye el núcleo algorítmico, físico y matemático de la aplicación. Lee de manera asíncrona los controles del usuario, procesa las variables mediante ecuaciones físicas, proyecta las coordenadas geométricas para la perspectiva isométrica 3D, y redibuja de forma iterativa el Canvas coordinando la animación del bloque y su HUD de resultados.
 
 ---
@@ -244,18 +256,23 @@ Constituye el núcleo algorítmico, físico y matemático de la aplicación. Lee
 # ⚙ Instalación
 
 1. Clona el repositorio oficial en tu máquina local:
+
 ```bash
-git clone [https://github.com/manuelMendo/laboratorio-trabajo-energia-2d-3d.git](https://github.com/manuelMendo/laboratorio-trabajo-energia-2d-3d.git)
+git clone https://github.com/manuelMendo/laboratorio-trabajo-energia-2d-3d.git
+
 ```
 
 2. Accede al directorio del proyecto:
+
 ```bash
 cd laboratorio-trabajo-energia-2d-3d
+
 ```
 
 3. El proyecto se ha desarrollado con tecnologías web nativas, por lo que **no requiere instalación de dependencias externas**. Puedes ejecutarlo de dos maneras:
-- Simplemente haz doble clic sobre el archivo `index.html` para abrirlo en cualquier navegador web moderno.
-- Utiliza la extensión **Live Server** en tu editor de código de preferencia (como Visual Studio Code) para desplegar un servidor local con recarga en vivo durante tus sesiones de desarrollo.
+
+* Simplemente haz doble clic sobre el archivo `index.html` para abrirlo en cualquier navegador web moderno.
+* Utiliza la extensión **Live Server** en tu editor de código de preferencia (como Visual Studio Code) para desplegar un servidor local con recarga en vivo durante tus sesiones de desarrollo.
 
 ---
 
@@ -278,11 +295,11 @@ cd laboratorio-trabajo-energia-2d-3d
 
 Este laboratorio digital actúa como una robusta herramienta pedagógica para la enseñanza de la **Física Teórica y Experimental**, buscando:
 
-- Validar empíricamente el Teorema Trabajo-Energía mediante simulación numérica e interactiva.
-- Analizar minuciosamente la descomposición espacial de fuerzas conservativas y disipativas.
-- Visualizar de forma palpable los efectos del rozamiento y la transferencia de energía mecánica a térmica.
-- Facilitar la correcta interpretación y lectura de diagramas de cuerpo libre vectoriales.
-- Fomentar la experimentación heurística en estudiantes mediante la manipulación libre de variables físicas críticas.
+* Validar empíricamente el Teorema Trabajo-Energía mediante simulación numérica e interactiva.
+* Analizar minuciosamente la descomposición espacial de fuerzas conservativas y disipativas.
+* Visualizar de forma palpable los efectos del rozamiento y la transferencia de energía mecánica a térmica.
+* Facilitar la correcta interpretación y lectura de diagramas de cuerpo libre vectoriales.
+* Fomentar la experimentación heurística en estudiantes mediante la manipulación libre de variables físicas críticas.
 
 ---
 
@@ -292,37 +309,47 @@ Las contribuciones al código, mejoras gráficas o sugerencias pedagógicas son 
 
 1. Haz un **Fork** de este repositorio.
 2. Crea una rama de desarrollo para tu característica:
+
 ```bash
 git checkout -b nueva-funcionalidad
+
 ```
+
 3. Realiza tus modificaciones en el código fuente.
 4. Confirma tus cambios mediante un mensaje descriptivo:
+
 ```bash
 git commit -m "Agrega nueva funcionalidad"
+
 ```
+
 5. Sube tus actualizaciones a tu repositorio remoto:
+
 ```bash
 git push origin nueva-funcionalidad
+
 ```
+
 6. Abre un **Pull Request** detallando minuciosamente tus cambios para su respectiva revisión e integración.
 
 ---
 
 # 🌟 Apoya el Proyecto
 
-Si este laboratorio te resultó de utilidad para tus asignaturas de física, proyectos de ingeniería o labores de docencia académica, considera otorgarle una ⭐ a este repositorio. Tu apoyo ayuda a dar visibilidad a la plataforma e impulsa el desarrollo de más herramientas educativas libres y accesibles para toda la comunidad.
+Si este laboratorio te resultó de utilidad para tus asignaturas de física, proyectos de ingeniería o labores de docencia académica, considera otorgarle una ⭐ a este repositorio. Tu apoyo ayuda a que este simulador llegue a más estudiantes, investigadores y docentes en todo el mundo.
 
 ---
 
 # 👨‍💻 Autor
 
 ## Manuel Mendo
+
 *Ingeniero de Software • Diseñador Gráfico*
 
 Proyecto desarrollado con propósitos educativos de código abierto para la enseñanza interactiva y moderna de la Mecánica Clásica en entornos web y plataformas digitales.
 
-- **Perfil de GitHub:** [https://github.com/manuelMendo](https://github.com/manuelMendo)
-- **Repositorio del Proyecto:** [https://github.com/manuelMendo/laboratorio-trabajo-energia-2d-3d](https://github.com/manuelMendo/laboratorio-trabajo-energia-2d-3d)
+* **Perfil de GitHub:** [https://github.com/manuelMendo](https://github.com/manuelMendo)
+* **Repositorio del Proyecto:** [https://github.com/manuelMendo/laboratorio-trabajo-energia-2d-3d](https://github.com/manuelMendo/laboratorio-trabajo-energia-2d-3d)
 
 ---
 
@@ -331,4 +358,7 @@ Proyecto desarrollado con propósitos educativos de código abierto para la ense
 Este proyecto se distribuye exclusivamente con fines educativos, didácticos y académicos. Tienes plena libertad para utilizarlo, modificarlo y adaptarlo dentro de tus metodologías de enseñanza presenciales o virtuales, manteniendo en todo momento los créditos explícitos del autor original.
 
 © 2026 Manuel Mendo. Todos los derechos reservados.
+
+```
+
 ```
