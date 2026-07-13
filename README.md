@@ -279,18 +279,6 @@ Si este laboratorio te resultó de utilidad para tus asignaturas de física, pro
 
 ---
 
-# 👨‍💻 Autor
-
-## Manuel Mendo
-*Ingeniero de Software • Diseñador Gráfico*
-
-Proyecto desarrollado con propósitos educativos de código abierto para la enseñanza interactiva y moderna de la Mecánica Clásica en entornos web y plataformas digitales.
-
-- **Perfil de GitHub:** [https://github.com/manuelMendo](https://github.com/manuelMendo)
-- **Repositorio del Proyecto:** [https://github.com/manuelMendo/laboratorio-trabajo-energia-2d-3d](https://github.com/manuelMendo/laboratorio-trabajo-energia-2d-3d)
-
----
-
 # 📄 Licencia
 
 Este proyecto se distribuye exclusivamente con fines educativos, didácticos y académicos. Tienes plena libertad para utilizarlo, modificarlo y adaptarlo dentro de tus metodologías de enseñanza presenciales o virtuales, manteniendo en todo momento los créditos explícitos del autor original.
